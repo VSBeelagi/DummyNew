@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="92" started-at="2022-03-16T16:54:12Z" finished-at="2022-03-16T16:54:12Z">
+  <suite name="Smoke Suite" duration-ms="131" started-at="2022-03-16T17:34:34Z" finished-at="2022-03-16T17:34:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="92" started-at="2022-03-16T16:54:12Z" finished-at="2022-03-16T16:54:12Z">
+    <test name="Test" duration-ms="131" started-at="2022-03-16T17:34:34Z" finished-at="2022-03-16T17:34:34Z">
       <class name="Org.CreateOrgTest">
-        <test-method status="PASS" signature="createOrg()[pri:0, instance:Org.CreateOrgTest@20e2cbe0]" name="createOrg" duration-ms="20" started-at="2022-03-16T16:54:12Z" finished-at="2022-03-16T16:54:12Z">
+        <test-method status="PASS" signature="createOrg()[pri:0, instance:Org.CreateOrgTest@51565ec2]" name="createOrg" duration-ms="1" started-at="2022-03-16T17:34:34Z" finished-at="2022-03-16T17:34:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrg -->
       </class> <!-- Org.CreateOrgTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Contacts.CreateContactTest">
+        <test-method status="PASS" signature="createContact()[pri:0, instance:Contacts.CreateContactTest@675d3402]" name="createContact" duration-ms="2" started-at="2022-03-16T17:34:34Z" finished-at="2022-03-16T17:34:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+      </class> <!-- Contacts.CreateContactTest -->
+      <class name="Contacts.ReadDataTest">
+        <test-method status="PASS" signature="readData()[pri:0, instance:Contacts.ReadDataTest@28feb3fa]" name="readData" duration-ms="15" started-at="2022-03-16T17:34:34Z" finished-at="2022-03-16T17:34:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+      </class> <!-- Contacts.ReadDataTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Smoke Suite -->
 </testng-results>

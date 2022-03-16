@@ -2,7 +2,7 @@ package Contacts;
 
 import org.testng.annotations.Test;
 
-public class ReadData {
+public class ReadDataTest {
 	
 	@Test
 	public void readData()

@@ -2,7 +2,7 @@ package Contacts;
 
 import org.testng.annotations.Test;
 
-public class CreateContact {
+public class CreateContactTest {
 	
 	@Test
 	public void createContact()

@@ -7,8 +7,7 @@ public class DummyOrgTest {
 	public void dummyOrgTest()
 	{
 		System.out.println("dummyOrgTest");
-		
-		
+	
 	}
 
 }

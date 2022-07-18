@@ -14,6 +14,7 @@ public class ReadDataTest {
 	System.out.println(BROWSER);
 	
 	System.out.println(URL);
+	System.out.println("Changes done successfully");
 	
 	}
 }

@@ -6,6 +6,7 @@ public class Sample {
 		
 		
 		System.out.println("Sample created by Ayush");
+		System.out.println(" New statement added by Swatantra");
 		
 
 	}

@@ -8,7 +8,7 @@ public class CreateOrgTest {
 	public void createOrg()
 	{
 		System.out.println("Org Created");
-		
+		System.out.println("Organization Created");
 		
 		
 	}

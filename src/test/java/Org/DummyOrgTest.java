@@ -7,7 +7,7 @@ public class DummyOrgTest {
 	public void dummyOrgTest()
 	{
 		System.out.println("dummyOrgTest");
-	
+	System.out.println("Dummy done by Ayush");
 	}
 
 }

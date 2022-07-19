@@ -9,7 +9,7 @@ public class CreateOrgTest {
 	{
 		System.out.println("Org Created");
 		System.out.println("Organization Created");
-		
+		System.out.println("Organization updated");
 		
 	}
 
